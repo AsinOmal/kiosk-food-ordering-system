@@ -39,5 +39,10 @@ namespace food_ordering
         {
             lblCode.Visible = true;
         }
+
+        private void paymentsuccess_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

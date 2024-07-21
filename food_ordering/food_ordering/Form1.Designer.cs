@@ -147,7 +147,7 @@
             this.roundedPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel1_Paint);
             // 
             // lblError
-
+            // 
             this.lblError.BackColor = System.Drawing.Color.Transparent;
             this.lblError.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError.ForeColor = System.Drawing.Color.Red;
@@ -156,17 +156,15 @@
             this.lblError.Size = new System.Drawing.Size(3, 2);
             this.lblError.TabIndex = 13;
             this.lblError.Text = null;
-
-
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(181, 333);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(151, 333);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(112, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(98, 19);
             this.guna2HtmlLabel1.TabIndex = 12;
             this.guna2HtmlLabel1.Text = "Show Password";
             // 
@@ -177,10 +175,10 @@
             this.tglShowPassword.CheckedState.InnerBorderColor = System.Drawing.Color.White;
             this.tglShowPassword.CheckedState.InnerColor = System.Drawing.Color.White;
             this.tglShowPassword.CheckedState.Parent = this.tglShowPassword;
-            this.tglShowPassword.Location = new System.Drawing.Point(150, 336);
+            this.tglShowPassword.Location = new System.Drawing.Point(102, 331);
             this.tglShowPassword.Name = "tglShowPassword";
             this.tglShowPassword.ShadowDecoration.Parent = this.tglShowPassword;
-            this.tglShowPassword.Size = new System.Drawing.Size(25, 17);
+            this.tglShowPassword.Size = new System.Drawing.Size(43, 21);
             this.tglShowPassword.TabIndex = 11;
             this.tglShowPassword.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.tglShowPassword.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -243,7 +241,7 @@
             this.txtPassword.HoverState.Parent = this.txtPassword;
             this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
             this.txtPassword.IconLeftOffset = new System.Drawing.Point(5, 0);
-            this.txtPassword.Location = new System.Drawing.Point(64, 290);
+            this.txtPassword.Location = new System.Drawing.Point(63, 288);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '•';
@@ -259,7 +257,7 @@
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(109, 51);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(162, 48);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(132, 39);
             this.guna2HtmlLabel2.TabIndex = 8;
             this.guna2HtmlLabel2.Text = "Welcome!";
             // 
@@ -269,12 +267,12 @@
             this.btnLogin.BorderRadius = 20;
             this.btnLogin.CheckedState.Parent = this.btnLogin;
             this.btnLogin.CustomImages.Parent = this.btnLogin;
-            this.btnLogin.FillColor = System.Drawing.Color.Red;
-            this.btnLogin.FillColor2 = System.Drawing.Color.Maroon;
+            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnLogin.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.HoverState.Parent = this.btnLogin;
-            this.btnLogin.Location = new System.Drawing.Point(87, 432);
+            this.btnLogin.Location = new System.Drawing.Point(85, 429);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
             this.btnLogin.Size = new System.Drawing.Size(165, 38);

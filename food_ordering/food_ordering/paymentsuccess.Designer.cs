@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paymentsuccess));
             this.pic = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -42,7 +41,7 @@
             // pic
             // 
             this.pic.BackColor = System.Drawing.Color.Transparent;
-            this.pic.Location = new System.Drawing.Point(166, 22);
+            this.pic.Location = new System.Drawing.Point(157, 22);
             this.pic.Name = "pic";
             this.pic.ShadowDecoration.Parent = this.pic;
             this.pic.Size = new System.Drawing.Size(230, 230);
@@ -54,7 +53,7 @@
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Black", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(166, 275);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(162, 275);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             this.guna2HtmlLabel1.Size = new System.Drawing.Size(227, 32);
             this.guna2HtmlLabel1.TabIndex = 1;
@@ -64,7 +63,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI Black", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(43, 465);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(41, 366);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(486, 47);
             this.guna2HtmlLabel2.TabIndex = 2;
@@ -75,7 +74,7 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI Black", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(109, 425);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(107, 326);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(344, 34);
             this.guna2HtmlLabel3.TabIndex = 3;
@@ -86,14 +85,13 @@
             this.btnClose.BorderRadius = 20;
             this.btnClose.CheckedState.Parent = this.btnClose;
             this.btnClose.CustomImages.Parent = this.btnClose;
-            this.btnClose.FillColor = System.Drawing.Color.Navy;
+            this.btnClose.FillColor = System.Drawing.Color.MediumBlue;
             this.btnClose.FillColor2 = System.Drawing.Color.MediumBlue;
             this.btnClose.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.Color.White;
             this.btnClose.HoverState.BorderColor = System.Drawing.Color.Blue;
             this.btnClose.HoverState.Parent = this.btnClose;
-            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(178, 691);
+            this.btnClose.Location = new System.Drawing.Point(169, 612);
             this.btnClose.Name = "btnClose";
             this.btnClose.ShadowDecoration.Parent = this.btnClose;
             this.btnClose.Size = new System.Drawing.Size(180, 45);
@@ -104,18 +102,19 @@
             // lblCode
             // 
             this.lblCode.AutoSize = true;
-            this.lblCode.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCode.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblCode.Location = new System.Drawing.Point(178, 599);
+            this.lblCode.Location = new System.Drawing.Point(160, 478);
             this.lblCode.Name = "lblCode";
-            this.lblCode.Size = new System.Drawing.Size(0, 30);
+            this.lblCode.Size = new System.Drawing.Size(208, 32);
             this.lblCode.TabIndex = 8;
+            this.lblCode.Text = "Your OrderID: 15";
             // 
             // linkQr
             // 
             this.linkQr.AutoSize = true;
             this.linkQr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkQr.Location = new System.Drawing.Point(162, 552);
+            this.linkQr.Location = new System.Drawing.Point(157, 426);
             this.linkQr.Name = "linkQr";
             this.linkQr.Size = new System.Drawing.Size(239, 21);
             this.linkQr.TabIndex = 9;
@@ -139,6 +138,7 @@
             this.Name = "paymentsuccess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "paymentsuccess";
+            this.Load += new System.EventHandler(this.paymentsuccess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pic)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

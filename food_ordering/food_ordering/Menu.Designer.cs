@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -48,11 +48,6 @@
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.dgvItemtable = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.dgvName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgvAction = new System.Windows.Forms.DataGridViewButtonColumn();
             this.guna2GradientPanel5 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.lblTotal = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -65,6 +60,11 @@
             this.btnDesserts = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnSnack = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnbeverages = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.dgvName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvQuantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvAction = new System.Windows.Forms.DataGridViewButtonColumn();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -118,7 +118,7 @@
             // 
             this.guna2PictureBox4.BackColor = System.Drawing.Color.Black;
             this.guna2PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox4.Image")));
-            this.guna2PictureBox4.Location = new System.Drawing.Point(791, 62);
+            this.guna2PictureBox4.Location = new System.Drawing.Point(496, 51);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.ShadowDecoration.Parent = this.guna2PictureBox4;
             this.guna2PictureBox4.Size = new System.Drawing.Size(25, 25);
@@ -128,11 +128,11 @@
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Semibold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.Firebrick;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(718, 34);
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(428, 18);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(108, 32);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(103, 27);
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "Contact Us";
             // 
@@ -140,7 +140,7 @@
             // 
             this.guna2PictureBox3.BackColor = System.Drawing.Color.Black;
             this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.Location = new System.Drawing.Point(760, 62);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(465, 51);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
             this.guna2PictureBox3.Size = new System.Drawing.Size(25, 25);
@@ -152,7 +152,7 @@
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox2.FillColor = System.Drawing.Color.Black;
             this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
-            this.guna2PictureBox2.Location = new System.Drawing.Point(729, 62);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(434, 51);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
             this.guna2PictureBox2.Size = new System.Drawing.Size(25, 25);
@@ -173,6 +173,7 @@
             // 
             // guna2GradientPanel1
             // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.White;
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientPanel4);
             this.guna2GradientPanel1.Controls.Add(this.guna2GradientPanel2);
             this.guna2GradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -199,22 +200,22 @@
             // 
             this.dgvItemtable.AllowUserToAddRows = false;
             this.dgvItemtable.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
-            this.dgvItemtable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle22;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(48)))), ((int)(((byte)(52)))));
+            this.dgvItemtable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvItemtable.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvItemtable.BackgroundColor = System.Drawing.Color.White;
             this.dgvItemtable.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvItemtable.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.dgvItemtable.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvItemtable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
-            dataGridViewCellStyle23.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle23.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvItemtable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle23;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(16)))), ((int)(((byte)(18)))));
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvItemtable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.dgvItemtable.ColumnHeadersHeight = 21;
             this.dgvItemtable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dgvName,
@@ -222,14 +223,14 @@
             this.dgvPrice,
             this.dgvAmount,
             this.dgvAction});
-            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
-            dataGridViewCellStyle28.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-            dataGridViewCellStyle28.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
-            dataGridViewCellStyle28.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle28.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvItemtable.DefaultCellStyle = dataGridViewCellStyle28;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(37)))), ((int)(((byte)(41)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(117)))), ((int)(((byte)(119)))));
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvItemtable.DefaultCellStyle = dataGridViewCellStyle14;
             this.dgvItemtable.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgvItemtable.EnableHeadersVisualStyles = false;
             this.dgvItemtable.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(56)))), ((int)(((byte)(62)))));
@@ -266,58 +267,13 @@
             this.dgvItemtable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dgvItemtable.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvItemtable_CellContentClick);
             // 
-            // dgvName
-            // 
-            this.dgvName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgvName.FillWeight = 200F;
-            this.dgvName.HeaderText = "Name";
-            this.dgvName.Name = "dgvName";
-            this.dgvName.ReadOnly = true;
-            this.dgvName.Width = 68;
-            // 
-            // dgvQuantity
-            // 
-            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dgvQuantity.DefaultCellStyle = dataGridViewCellStyle24;
-            this.dgvQuantity.HeaderText = "Quantity";
-            this.dgvQuantity.Name = "dgvQuantity";
-            this.dgvQuantity.ReadOnly = true;
-            // 
-            // dgvPrice
-            // 
-            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dgvPrice.DefaultCellStyle = dataGridViewCellStyle25;
-            this.dgvPrice.HeaderText = "Price";
-            this.dgvPrice.Name = "dgvPrice";
-            this.dgvPrice.ReadOnly = true;
-            // 
-            // dgvAmount
-            // 
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.dgvAmount.DefaultCellStyle = dataGridViewCellStyle26;
-            this.dgvAmount.HeaderText = "Amount";
-            this.dgvAmount.Name = "dgvAmount";
-            this.dgvAmount.ReadOnly = true;
-            // 
-            // dgvAction
-            // 
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.White;
-            this.dgvAction.DefaultCellStyle = dataGridViewCellStyle27;
-            this.dgvAction.HeaderText = "Action";
-            this.dgvAction.Name = "dgvAction";
-            this.dgvAction.ReadOnly = true;
-            // 
             // guna2GradientPanel5
             // 
             this.guna2GradientPanel5.Controls.Add(this.lblTotal);
             this.guna2GradientPanel5.Controls.Add(this.label2);
             this.guna2GradientPanel5.Controls.Add(this.btnPayment);
             this.guna2GradientPanel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2GradientPanel5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.guna2GradientPanel5.FillColor = System.Drawing.Color.Green;
             this.guna2GradientPanel5.FillColor2 = System.Drawing.Color.Green;
             this.guna2GradientPanel5.Location = new System.Drawing.Point(0, 617);
             this.guna2GradientPanel5.Name = "guna2GradientPanel5";
@@ -353,7 +309,7 @@
             this.btnPayment.CheckedState.Parent = this.btnPayment;
             this.btnPayment.CustomImages.Parent = this.btnPayment;
             this.btnPayment.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnPayment.FillColor2 = System.Drawing.Color.Black;
+            this.btnPayment.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnPayment.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPayment.ForeColor = System.Drawing.Color.White;
             this.btnPayment.HoverState.Parent = this.btnPayment;
@@ -378,12 +334,17 @@
             // 
             // guna2GradientButton4
             // 
+            this.guna2GradientButton4.CheckedState.FillColor = System.Drawing.Color.Green;
+            this.guna2GradientButton4.CheckedState.FillColor2 = System.Drawing.Color.Green;
             this.guna2GradientButton4.CheckedState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.CustomImages.Parent = this.guna2GradientButton4;
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.guna2GradientButton4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2GradientButton4.FillColor = System.Drawing.Color.Green;
             this.guna2GradientButton4.FillColor2 = System.Drawing.Color.Green;
             this.guna2GradientButton4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GradientButton4.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton4.HoverState.FillColor = System.Drawing.Color.Green;
+            this.guna2GradientButton4.HoverState.FillColor2 = System.Drawing.Color.Green;
             this.guna2GradientButton4.HoverState.Parent = this.guna2GradientButton4;
             this.guna2GradientButton4.Image = ((System.Drawing.Image)(resources.GetObject("guna2GradientButton4.Image")));
             this.guna2GradientButton4.Location = new System.Drawing.Point(0, 0);
@@ -395,7 +356,7 @@
             // 
             // guna2GradientPanel2
             // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.White;
             this.guna2GradientPanel2.Controls.Add(this.itemPanel);
             this.guna2GradientPanel2.Controls.Add(this.guna2GradientPanel3);
             this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -411,10 +372,9 @@
             // 
             this.itemPanel.AutoScroll = true;
             this.itemPanel.BackColor = System.Drawing.Color.Transparent;
-            this.itemPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.itemPanel.Location = new System.Drawing.Point(0, 34);
             this.itemPanel.Name = "itemPanel";
-            this.itemPanel.Size = new System.Drawing.Size(437, 710);
+            this.itemPanel.Size = new System.Drawing.Size(430, 710);
             this.itemPanel.TabIndex = 1;
             // 
             // guna2GradientPanel3
@@ -435,13 +395,16 @@
             // 
             this.btnDesserts.Animated = true;
             this.btnDesserts.BorderColor = System.Drawing.Color.White;
+            this.btnDesserts.BorderThickness = 1;
             this.btnDesserts.CheckedState.Parent = this.btnDesserts;
             this.btnDesserts.CustomImages.Parent = this.btnDesserts;
             this.btnDesserts.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnDesserts.FillColor = System.Drawing.Color.Maroon;
-            this.btnDesserts.FillColor2 = System.Drawing.Color.Red;
+            this.btnDesserts.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnDesserts.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnDesserts.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesserts.ForeColor = System.Drawing.Color.White;
+            this.btnDesserts.HoverState.FillColor = System.Drawing.Color.Red;
+            this.btnDesserts.HoverState.FillColor2 = System.Drawing.Color.Black;
             this.btnDesserts.HoverState.Parent = this.btnDesserts;
             this.btnDesserts.Image = ((System.Drawing.Image)(resources.GetObject("btnDesserts.Image")));
             this.btnDesserts.Location = new System.Drawing.Point(287, 0);
@@ -456,13 +419,16 @@
             // 
             this.btnSnack.Animated = true;
             this.btnSnack.BorderColor = System.Drawing.Color.White;
+            this.btnSnack.BorderThickness = 1;
             this.btnSnack.CheckedState.Parent = this.btnSnack;
             this.btnSnack.CustomImages.Parent = this.btnSnack;
             this.btnSnack.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnSnack.FillColor = System.Drawing.Color.Maroon;
-            this.btnSnack.FillColor2 = System.Drawing.Color.Red;
+            this.btnSnack.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnSnack.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnSnack.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSnack.ForeColor = System.Drawing.Color.White;
+            this.btnSnack.HoverState.FillColor = System.Drawing.Color.Red;
+            this.btnSnack.HoverState.FillColor2 = System.Drawing.Color.Black;
             this.btnSnack.HoverState.Parent = this.btnSnack;
             this.btnSnack.Image = ((System.Drawing.Image)(resources.GetObject("btnSnack.Image")));
             this.btnSnack.Location = new System.Drawing.Point(147, 0);
@@ -477,13 +443,16 @@
             // 
             this.btnbeverages.Animated = true;
             this.btnbeverages.BorderColor = System.Drawing.Color.White;
+            this.btnbeverages.BorderThickness = 1;
             this.btnbeverages.CheckedState.Parent = this.btnbeverages;
             this.btnbeverages.CustomImages.Parent = this.btnbeverages;
             this.btnbeverages.Dock = System.Windows.Forms.DockStyle.Left;
-            this.btnbeverages.FillColor = System.Drawing.Color.Maroon;
-            this.btnbeverages.FillColor2 = System.Drawing.Color.Red;
+            this.btnbeverages.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnbeverages.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnbeverages.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbeverages.ForeColor = System.Drawing.Color.White;
+            this.btnbeverages.HoverState.FillColor = System.Drawing.Color.Red;
+            this.btnbeverages.HoverState.FillColor2 = System.Drawing.Color.Black;
             this.btnbeverages.HoverState.Parent = this.btnbeverages;
             this.btnbeverages.Image = ((System.Drawing.Image)(resources.GetObject("btnbeverages.Image")));
             this.btnbeverages.Location = new System.Drawing.Point(0, 0);
@@ -493,6 +462,52 @@
             this.btnbeverages.TabIndex = 1;
             this.btnbeverages.Text = "Beverages";
             this.btnbeverages.Click += new System.EventHandler(this.btnbeverages_Click);
+            // 
+            // dgvName
+            // 
+            this.dgvName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgvName.FillWeight = 200F;
+            this.dgvName.HeaderText = "Name";
+            this.dgvName.Name = "dgvName";
+            this.dgvName.ReadOnly = true;
+            this.dgvName.Width = 68;
+            // 
+            // dgvQuantity
+            // 
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dgvQuantity.DefaultCellStyle = dataGridViewCellStyle10;
+            this.dgvQuantity.HeaderText = "Quantity";
+            this.dgvQuantity.Name = "dgvQuantity";
+            this.dgvQuantity.ReadOnly = true;
+            // 
+            // dgvPrice
+            // 
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dgvPrice.DefaultCellStyle = dataGridViewCellStyle11;
+            this.dgvPrice.HeaderText = "Price";
+            this.dgvPrice.Name = "dgvPrice";
+            this.dgvPrice.ReadOnly = true;
+            // 
+            // dgvAmount
+            // 
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.dgvAmount.DefaultCellStyle = dataGridViewCellStyle12;
+            this.dgvAmount.HeaderText = "Amount";
+            this.dgvAmount.Name = "dgvAmount";
+            this.dgvAmount.ReadOnly = true;
+            // 
+            // dgvAction
+            // 
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Segoe UI Black", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.Color.Red;
+            this.dgvAction.DefaultCellStyle = dataGridViewCellStyle13;
+            this.dgvAction.HeaderText = "Action";
+            this.dgvAction.Name = "dgvAction";
+            this.dgvAction.ReadOnly = true;
             // 
             // Menu
             // 
@@ -547,11 +562,11 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private System.Windows.Forms.FlowLayoutPanel itemPanel;
         private System.Windows.Forms.Label lblTotal;
+        public Guna.UI2.WinForms.Guna2DataGridView dgvItemtable;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvName;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvQuantity;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvPrice;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvAmount;
         private System.Windows.Forms.DataGridViewButtonColumn dgvAction;
-        public Guna.UI2.WinForms.Guna2DataGridView dgvItemtable;
     }
 }
